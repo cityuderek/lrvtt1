@@ -1,0 +1,27 @@
+{
+    "name": "cityuderek/lrvtt1",
+    "description": "Laravel test 1",
+    "type": "library",
+    "require": {}
+	"autoload": {
+	"psr-4": {
+	  "Fa\\": "src/"
+	},
+	"files": [
+	  "src/helper.php"
+	]
+	},
+  "extra": {
+    "branch-alias": {
+      "dev-master": "8.0-dev"
+    },
+    "laravel": {
+      "providers": [
+      ],
+      "aliases": {
+      }
+    }
+  },
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
